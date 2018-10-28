@@ -26,3 +26,16 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
     else:
         outputs = activation_function(Wx_plus_b)
     return outputs
+##这个地方我觉得有点绕。于是思考了下
+#N * 2   N个样本，每个样本有两个特征
+# 2个特征要传向  3个 隐藏层#
+#
+#    A    -------  B
+#         -------  B
+#    A    -------  B
+#也就是说 [N* 2]    *  [2  * 3] ==[N  *   3]
+#理解为矩阵乘法就很不错了
+#所以样例里。in_size=2
+#out_size=3
+#activation_function为激励函数
+#inputs  应该是一个 N*2的list

@@ -1,3 +1,5 @@
+##占位符相当于只是一个对象，只是定义了类型，没有具体的指，只有在使用时才会feed
+##比如下面那个，input1,2  被feed为float32 类型的7  和2
 import tensorflow as tf 
 
 # placeholder 是 Tensorflow 中的占位符
