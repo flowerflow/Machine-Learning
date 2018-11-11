@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="adc55ac9-3847-4f0e-836d-a14ea1b30734" name="默认" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_tutorials/1.5 tf 构造简单的神经网络.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_tutorials/1.5 tf 构造简单的神经网络.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tensorflow_tutorials/1.6 使用matplotlib可视化.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_tutorials/1.6 使用matplotlib可视化.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化.py" beforeDir="false" afterPath="$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +15,10 @@
     <SUITE FILE_PATH="coverage/Machine_Learning$1_5_tf_.coverage" NAME="1.5 tf 构造简单的神经网络 Coverage Results" MODIFIED="1540717560687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_tutorials" />
     <SUITE FILE_PATH="coverage/Machine_Learning$1_6_matplotlib.coverage" NAME="1.6 使用matplotlib可视化 Coverage Results" MODIFIED="1541917010819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_tutorials" />
     <SUITE FILE_PATH="coverage/Machine_Learning$1_2_tf_.coverage" NAME="1.2 tf 常量与变量 Coverage Results" MODIFIED="1540712218450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_tutorials" />
+    <SUITE FILE_PATH="coverage/Machine_Learning$1_8_tf_tensorboard.coverage" NAME="1.8 tf 使用tensorboard可视化 Coverage Results" MODIFIED="1541918868220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tensorflow_tutorials" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="1.1 tf 求解线性回归.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.1 tf 求解线性回归.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="52" column="3" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="1.2 tf 常量与变量.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.2 tf 常量与变量.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -65,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.6 使用matplotlib可视化.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1.6 使用matplotlib可视化.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.6 使用matplotlib可视化.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="342">
@@ -73,6 +63,39 @@
               <folding>
                 <element signature="e#201#224#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.6 使用matplotlib可视化的输出结果.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.6 使用matplotlib可视化的输出结果.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="1.7 计算cost的优化方式.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.7 计算cost的优化方式.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-226" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.8 tf 使用tensorboard可视化.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.8 tf 使用tensorboard可视化-2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化-2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -107,6 +130,7 @@
         <option value="$PROJECT_DIR$/tensorflow_tutorials/1.4 tf add_layer.py" />
         <option value="$PROJECT_DIR$/tensorflow_tutorials/1.5 tf 构造简单的神经网络.py" />
         <option value="$PROJECT_DIR$/tensorflow_tutorials/1.6 使用matplotlib可视化.py" />
+        <option value="$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化.py" />
       </list>
     </option>
   </component>
@@ -143,6 +167,12 @@
               <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
               <item name="tensorflow_tutorials" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Machine-Learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Machine-Learning" type="462c0819:PsiDirectoryNode" />
+              <item name="tensorflow_tutorials" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -168,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.1.6 使用matplotlib可视化">
+  <component name="RunManager" selected="Python.1.8 tf 使用tensorboard可视化">
     <configuration name="1.2 tf 常量与变量" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Machine-Learning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -226,13 +256,34 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="1.8 tf 使用tensorboard可视化" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Machine-Learning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tensorflow_tutorials" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.1.2 tf 常量与变量" />
       <item itemvalue="Python.1.5 tf 构造简单的神经网络" />
       <item itemvalue="Python.1.6 使用matplotlib可视化" />
+      <item itemvalue="Python.1.8 tf 使用tensorboard可视化" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1.8 tf 使用tensorboard可视化" />
         <item itemvalue="Python.1.6 使用matplotlib可视化" />
         <item itemvalue="Python.1.5 tf 构造简单的神经网络" />
         <item itemvalue="Python.1.2 tf 常量与变量" />
@@ -264,10 +315,10 @@
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15755208" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18359375" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.30989584" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.21940105" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -548,6 +599,38 @@
           <folding>
             <element signature="e#201#224#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.6 使用matplotlib可视化的输出结果.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.7 计算cost的优化方式.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-226" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/logs/events.out.tfevents.1541917502.LAPTOP-RGUPIVDB">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-665">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化-2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="15" column="31" lean-forward="true" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tensorflow_tutorials/1.8 tf 使用tensorboard可视化.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
         </state>
       </provider>
     </entry>
