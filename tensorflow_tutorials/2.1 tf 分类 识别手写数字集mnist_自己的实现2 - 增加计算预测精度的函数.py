@@ -9,7 +9,7 @@ mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 n_input=784
 n_layer1=10
-examples_to_show=10
+examples_to_show=20
 
 # 输入
 x_input=tf.placeholder("float",[None,n_input])    # [batch,784]
@@ -71,7 +71,7 @@ print ("number is : ", sess.run(tf.argmax(test_res,1)))
 
 # show 一下图片
 # 这段代码 是从别的地方copy 过来的，作用是将图片show出来
-f, a = plt.subplots(2, 10, figsize=(10, 2))
+f, a = plt.subplots(2, 20, figsize=(20, 2))
 for i in range(examples_to_show):
     a[0][i].imshow(np.reshape(mnist.test.images[i], (28, 28)))
     #a[1][i].imshow(np.reshape(encode_decode[i], (28, 28)))
