@@ -26,9 +26,13 @@ def add_layer(inputs, in_size, out_size, activation_function=None):
     #创建 【in_size * out_size】的矩阵，服从正态分部
 
     biases = tf.Variable(tf.zeros([1, out_size]) + 0.1)
-    #创建偏移函数  【1*outsize】
+    #创建偏移函数  【1*outsize】 +0.1
     Wx_plus_b = tf.matmul(inputs, Weights) + biases
+    #这一步设置了内部函数式如何转化的，这里是 利用矩阵乘法 +  矩阵加法
+    #也就是可以理解线性函数
+    #
     #tf.matmul是矩阵乘法
+
     # input的矩阵【N * input__size】  *  【in_size * out_size】
     # 返回 N  *  outsize
     if activation_function is None:
